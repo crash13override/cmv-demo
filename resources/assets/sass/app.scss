@@ -7,3 +7,25 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+
+@import "select2";
+
+@import "dropzone";
+
+
+
+h1.title {
+  margin-bottom: 30px;
+}
+
+.demo {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+
+
+
+

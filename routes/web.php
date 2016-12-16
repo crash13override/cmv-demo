@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'TodoController@index');
+
+Route::post('/todo', 'TodoController@store');
+Route::post('/todo/excel', 'TodoController@storeExcel');
+Route::post('/todo/csv', 'TodoController@storeCsv');

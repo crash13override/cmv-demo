@@ -13,8 +13,15 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example', require('./components/Example.vue'));
+Vue.component('select2', require('./components/Select2.vue'));
+Vue.component('todo-list', require('./components/TodoList.vue'));
+Vue.component('todo-form-inline', require('./components/TodoFormInline.vue'));
+Vue.component('todo-form-excel', require('./components/TodoFormExcel.vue'));
+Vue.component('todo-form-csv', require('./components/TodoFormCsv.vue'));
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    data: {
+        cmv: window.cmv
+    }
 });

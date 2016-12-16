@@ -1,0 +1,48 @@
+.dz-message {
+  padding: 20px;
+  background-color: #cce1e6;
+  text-align: center;
+  font-size: 1.3em;
+  margin-top: 20px;
+  position: relative;
+  border: 2px dashed #999;
+  cursor: pointer;
+}
+.dz-message:hover {
+  background-color: #e3f6fb;
+}
+.dz-message span{
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 7px;
+}
+.dz-preview{
+  display: none;
+}
+.progress{
+  margin: 20px 0;
+}
+.drop_cancel {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  padding: 15px;
+  cursor: pointer;
+}
+.drop_cancel:hover {
+  opacity: 0.8;
+}
+.drop-default-msg {
+  cursor: pointer;
+}
+.drop-ready-msg {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 25px;
+}
+.control-label{
+  height: 30px;
+  line-height: 40px;
+  text-align: right;
+}
