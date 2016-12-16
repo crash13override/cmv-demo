@@ -82,6 +82,7 @@ class TodoController extends Controller
             }
         }
         $inputs['assignee'] = implode(', ', $assigneesArr);
+        $inputs['date'] = (new Carbon($inputs['date']))->format('m/d/Y');
 
         return $this->createTodo($inputs);
     }
